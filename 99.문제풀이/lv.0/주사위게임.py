@@ -116,3 +116,37 @@ def solution(입력변수):
 if __name__ == "__main__":
     # 예시 테스트
     print(solution(샘플입력))
+
+def solution(arr):
+    x = []
+    for i in arr:
+        for _ in range(i):
+            x.append(i)
+    return x
+
+def solution(str):
+    x = ''
+    for idx, a in enumerate(str):
+        x += a * (idx+1)
+    return x
+
+def solution(arr):
+    x = []
+    for i in arr:
+        for v in i:
+            x.append(v)
+    return x
+
+def solution(arr):
+    x = []
+    for i in arr:
+        x += i
+    return x
+
+def solution(arr):
+    x =[]
+    for i in arr:
+        x += [i] * len(str(i))
+    return x
+
+
